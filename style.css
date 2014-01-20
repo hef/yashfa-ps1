@@ -1,0 +1,43 @@
+/*
+Theme Name: Yashfa-PSOne
+Description: modifications on the Yashfa Theme for PSOne
+Template: Yashfa
+*/
+
+@import url("../yashfa/style.css");
+
+/* Custom PSOne theming starts here */
+#header { background-color: #fff; }
+.description { left: 183px; /*border-left: 30px solid #d11140;*/}
+#header h1 a { color: #00a5c5; left: 180px; top: -11px;}
+#header .donate{float:right;margin-top:120px;}
+
+.cat-item { padding: 5px 10px;}
+
+.widget_archive ul { padding: 5px 10px;}
+/*.two .dater { background-color: #000; border: 2px solid #00a5c5; color: #fff;}*/
+
+.two .dater{padding:0;background:#fff;border-radius:.5em;-moz-border-radius:.5em;-webkit-border-radius:.5em;box-shadow:0px 1px 2px rgba(0, 0, 0, .75);-moz-box-shadow:0px 1px 2px rgba(0, 0, 0, .75);-webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, .75);border:1px solid #999;}
+.dater h3{text-align:center;color:#000;border-bottom:2px solid #999;background:#f6f6f6;-moz-border-radius-topleft:.25em;-moz-border-radius-topright:.25em;}
+.dater h5{text-align:center;color:#FFF;background:#C00;font-size:16px;text-transform:uppercase;-moz-border-radius-bottomleft:.25em;-moz-border-radius-bottomright:.25em;padding:2px 0;}
+
+
+#random-quote{width: 280px; padding: 0px 15px 0px 0px; height: 270px; overflow: auto;}
+
+/* CUSTOM MEDIA BOX CODE - DO NOT TOUCH PLS. */
+div#media-box{border:none;margin:10px 0 0 0;}
+div#media-embedded-player{float:left;padding-bottom:10px;}
+div#media-other-videos{float;right;overflow-y:scroll;height:330px;}
+div#media-other-videos a {border:none;padding:5px;background:url(/web/20140102090452/http://pumpingstationone.org/wp-content/themes/yashfa/images/videoframe.gif) no-repeat 0 0;margin:0 0 -12px 20px;display:block;width:125px;}
+div#media-other-videos .thumbnail-link-text{margin-top:2px;overflow:hidden;height:16px;display:block;width:120px;white-space:nowrap;}
+div#media-other-videos a{text-decoration:none;display:block;width:125px;height:98px;}
+div#media-meta{padding-top: 5px;border-top:1px solid #CCC;clear:both;}
+div#media-meta p{line-height:1.3em;}
+div#media-meta h3{line-height:2em;margin-top:0;}
+div#media-date{}
+div#media-date p {color:#00A5C5;padding:0;margin:0 5px 5px 0;font:bold 14px/16px arial,sans-serif;}
+.media-tags{text-transform:capitalize;}
+
+/* END CUSTOM MEDIA BOX CODE */
+
+.entry p{margin:20px 0;}
